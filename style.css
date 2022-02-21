@@ -1,0 +1,60 @@
+* {
+    font-size: 25px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+#search-container {
+    width: 30%;
+    margin: 20px auto 50px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#search-container > input {
+    outline: none;
+}
+
+#user-cards {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+.cards {
+    display: block;
+    border: 1px solid rgb(85, 80, 73);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    word-wrap: break-word;
+}
+
+.cards > .name {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.cards > .body {
+    font-size: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+}
